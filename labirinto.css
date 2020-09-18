@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background: rgb(238,197,153);
+    background: radial-gradient(circle, rgba(238,197,153,1) 37%, rgba(62,119,80,1) 100%);
+}
+
+header{
+    text-align: center;
+    height: 70px;
+}
+
+main{
+    margin-top: 10px;
+    margin-left: 19%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-family: 'Lobster', cursive, sans-serif;
+    height: 40px;
+    font-size: 1.8em;
+    padding: 5px;
+}
+
+#pHeader{
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    height: 30px;
+    padding: 5px;
+}
+
+.hugg {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    
+}
+
+#hugg0 div, #hugg1  div, #hugg2  div, #hugg3  div, #hugg4  div, #hugg5  div, #hugg6  div, #hugg7  div,
+#hugg8 div, #hugg9 div, #hugg10 div, #hugg11 div, #hugg12 div, #hugg13 div, #hugg14 div{
+    height: 40px;
+    width: 40px;
+    /* border-radius: 5px; */
+}
+
+
+.cellsWall{
+    display: flex;
+    background-color: #004D32;
+    
+   
+}
+
+.cellsPath{
+    display: flex;
+}
+
+
+#daisy{
+    width: 40px;
+    height: 40px;
+}
+
+#daisyPot{
+    position: absolute;
+    z-index: -1;
+    left: 1055px;
+    top: 370px;
+}
+
+#daisyPot > img {
+    width: 50px;
+    height: 35px; 
+}
+
+
+#start {
+    position: absolute;
+    left: 170px;
+    top: 410px;
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 1.2em;
+}
+
+#end{
+    position: absolute;
+    left: 1120px;
+    top: 375px;
+    font-family: 'Lobster', cursive, sans-serif;
+    font-size: 1.2em;
+}
+
+.oculto {
+    visibility: hidden
+}
+
+#vitoria{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 30px;;
+    font-family: "Quicksand", sans-serif;
+    padding: 30px;
+    background-color: #ffeda8;
+    left: 500px;
+    top: 130px;
+}
+#vitoria p {
+    padding: 10px;
+}
+
+#vitoria img{
+    width: 300px;
+}
+
+#botao {
+    padding: 10px;
+    background-color: #004D32;
+    border: none;
+    border-radius: 30px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: "Quicksand", sans-serif;
+    width: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+    outline: none;
+}
