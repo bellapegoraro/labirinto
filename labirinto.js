@@ -63,7 +63,7 @@ daisyDiv.id = "moveDaisy"
 
 function createImage() {
     let daisyPic = document.createElement('img')
-    daisyPic.src = '/imagens/daisy.png'
+    daisyPic.src = 'imagens/daisy.png'
     daisyPic.id = "daisy"
     player.appendChild(daisyDiv)
     daisyDiv.appendChild(daisyPic)
@@ -122,7 +122,6 @@ document.addEventListener('keydown', (event) => {
         let win = document.getElementById('vitoria')
         win.classList.remove('oculto')
     }
-    //let daisyWinner = daisyDiv.parentElement.getAttribute("data-position")
 })
 
 
