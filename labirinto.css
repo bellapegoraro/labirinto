@@ -20,7 +20,7 @@ header{
 main{
     margin-top: 10px;
     margin-left: 19%;
-    height: 85vh;
+    height: 75vh;
     display: flex;
     flex-wrap: wrap;
 }
